@@ -2,6 +2,7 @@ language: node_js
 install:
   - nvm install node
   - npm i
+  - npx eslint *.js
 # safelist
 branches:
   only:
