@@ -1,0 +1,8 @@
+language: node_js
+install:
+  - nvm install node
+  - npm i
+# safelist
+branches:
+  only:
+    - testing
