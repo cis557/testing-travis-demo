@@ -1,0 +1,29 @@
+{
+  "name": "testing-travis-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest && eslint --ext .js,.jsx .",
+    "lint": "eslint --ext .js,.jsx ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cis557/testing-travis-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cis557/testing-travis-demo/issues"
+  },
+  "homepage": "https://github.com/cis557/testing-travis-demo#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.13.9",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.8",
+    "jest": "^26.6.3"
+  }
+}
