@@ -1,9 +1,10 @@
 language: node_js
+node_js:
+  - node
 install:
-  - nvm install node
   - npm i
-  - npx eslint *.js
-# safelist
+script:
+  - npm run test
 branches:
   only:
     - testing
