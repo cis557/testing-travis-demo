@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "jest --coverage && eslint --ext .js,.jsx .",
+    "test": "jest && eslint --ext .js,.jsx .",
     "lint": "eslint --ext .js,.jsx ."
   },
   "repository": {
